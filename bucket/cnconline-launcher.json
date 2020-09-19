@@ -1,0 +1,15 @@
+﻿{
+    "version":  "2.0.7",
+    "description": "Launcher for C&C:Online to play Generals, Zero Hour, Tiberium Wars, Kane's Wrath, and Red Alert 3",
+    "homepage":  "https://cnc-online.net/",
+    "license":  "Proprietary",
+    "url":  "https://server.cnc-online.net/downloads/cnconline/CNCOnline_2.0.7.msi",
+    "extract_dir": "PFiles\\Revora\\CNCOnline",
+    "hash":  "b9912c97500f7e4ded5a7e343fb97d71620d0e8c69837c3d1063ef90d79dde67",
+    "shortcuts": [
+        [
+            "cnconline.exe",
+            "C&C Online Launcher"
+        ]
+    ]
+}
