@@ -1,0 +1,22 @@
+﻿{
+    "homepage":  "http://www.clonk.de/cr.php",
+    "description": "Clonk Rage is a colourful genre mix of skill game, action, building strategy and jump 'n' run",
+    "version":  "4.9.10.7",
+    "license":  "Freeware",
+    "url":  "http://www.clonkx.de/rage/cr_full_win32.exe#/dl.7z",
+    "hash":  "22efc00d2f3422cfa84df2a41322678076f022d8139a450ec00393fe5ac2375a",
+    "shortcuts": [
+        [
+            "Clonk.exe",
+            "Clonk Rage"
+        ],
+        [
+            "Editor.exe",
+            "Clonk Rage Editor"
+        ]
+    ],
+    "post_install": [
+        "Remove-Item \"$dir\\uninst.exe\" -Force",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    ]
+}
