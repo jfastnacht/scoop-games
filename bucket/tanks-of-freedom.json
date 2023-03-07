@@ -1,0 +1,18 @@
+﻿{
+    "version": "0.7.0",
+    "description": "Turn based strategy game in isometric pixel art",
+    "homepage": "https://tof.p1x.in/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url":  "https://ia803403.us.archive.org/2/items/tanks-of-freedom-game-source-code-multiple-versions./ToF_Beta_0.7.0_win64.exe",
+            "hash":  "bddb9477ad2140fe1f8c16d52b1a0ebf1bb85784663cc1a60bd838d18b199d3e"
+        }
+    },
+    "shortcuts": [
+        [
+            "ToF_Beta_0.7.0_win64.exe",
+            "Tanks of Freedom"
+        ]
+    ]
+}
